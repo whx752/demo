@@ -1,11 +1,11 @@
-package com.whx;
+//有下划线先隐藏//package com.whx;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 /**
- ** author : wanghx
+ ** @author : wanghx
  ** date ：2021-08-26 09:17:33
  ** 随机二维数组矩阵，顺/逆时针方向，由外向内遍历输出
  **/
@@ -47,7 +47,7 @@ public class ClockWise {
 
     private  static boolean up(){
         if(getValue(n)){
-            for (int k = w; k <= e; k++) {
+            for(int k = w; k <= e; k++) {
                 matrixRet.add(arr[k]);
             }
         }else {
