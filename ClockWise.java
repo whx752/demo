@@ -1,5 +1,3 @@
-//有下划线先隐藏//package com.whx;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -47,7 +45,7 @@ public class ClockWise {
 
     private  static boolean up(){
         if(getValue(n)){
-            for(int k = w; k <= e; k++) {
+            for (int k = w; k <= e; k++) {
                 matrixRet.add(arr[k]);
             }
         }else {
